@@ -13,6 +13,9 @@
     "settings": "open \"https://github.com/rea1i2e/$(basename $(pwd))/settings/pages\"",
     "commit": "git add . && git commit -m \"Update\" && git push origin main"
   },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  },
   "devDependencies": {
     "husky": "^9.1.7",
     "sass": "^1.93.2",

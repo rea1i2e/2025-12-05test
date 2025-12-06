@@ -2,8 +2,10 @@
 @use "base/function" as *;
 @use "base/_breakpoints.scss" as *;
 
-.test {
-  width: rem(100);
-  aspect-ratio: 1;
-  background-color: red;
+.pin-target {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
 }
